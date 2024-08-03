@@ -29,7 +29,7 @@ let announce = document.querySelecter(#announceWinner);
 function checkWinner(){
     winningPatterns.forEach( pattern => {
         if(boxes[pattern[0]].innertext === boxes[pattern[1]].innerText && boxes[pattern[1]].innerText === boxes[pattern[2]].innerText){
-            
+          
     });
 
 
